@@ -4,3 +4,17 @@
 *.jar
 *.war
 *.ear
+
+# Eclipse #
+.settings
+.classpath
+.project
+
+# Maven #
+target
+*.log
+
+.DS_Store
+
+# SublimeText #
+scrappy.sublime-workspace
