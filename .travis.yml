@@ -1,0 +1,15 @@
+language: java
+
+jdk:
+  - openjdk7
+  - oraclejdk7
+  - openjdk6
+
+env:
+  - BUILD=maven
+
+install:
+  - if [[ $BUILD == 'maven' ]]; then mvn install -DskipTests=true; fi
+
+script:
+  - ./tools/test-build $BUILD

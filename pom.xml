@@ -25,15 +25,15 @@
 
   <licenses>
     <license>
-      <name></name>
+      <name>GPLv3</name>
       <url></url>
     </license>
   </licenses>
 
   <scm>
-    <url>https://github.com/netty/netty</url>
-    <connection>scm:git:git://github.com/netty/netty.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/netty/netty.git</developerConnection>
+    <url>https://github.com/yoghi/scrappy.git</url>
+    <connection>scm:git:git://github.com/yoghi/scrappy.git</connection>
+    <developerConnection>scm:git:git@github.com:yoghi/scrappy.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
