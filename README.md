@@ -2,8 +2,7 @@ scrappy: pdf scraper
 =======
 
 ### Status
-[![Build Status](https://travis-ci.org/yoghi/scrappy.png)](https://travis-ci.org/yoghi/scrappy)
-
+[![Build Status](https://travis-ci.org/yoghi/scrappy.png?branch=master)](https://travis-ci.org/yoghi/scrappy)
 
 Il suo obiettivo è estrae metadati e testo da un pdf dato in ingresso e di salvare il tutto in una cartella di destinazione.
 
