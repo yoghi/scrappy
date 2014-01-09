@@ -11,7 +11,7 @@ install:
   - if [[ $BUILD == 'maven' ]]; then mvn install -DskipTests=true; fi
 
 before_script:
-  - chmod +x ./tools/test-build
+  - chmod a+x ./tools/test-build
 
 script:
   - ./tools/test-build $BUILD
