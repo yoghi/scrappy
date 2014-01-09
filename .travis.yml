@@ -8,10 +8,5 @@ env:
   - BUILD=maven
 
 install:
-  - if [[ $BUILD == 'maven' ]]; then mvn install -DskipTests=true; fi
+  - if [[ $BUILD == 'maven' ]]; then mvn install; fi
 
-before_script:
-  - chmod a+x ./tools/test-build
-
-script:
-  - ./tools/test-build $BUILD
