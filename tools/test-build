@@ -13,7 +13,7 @@ clean()
 # Test maven build
 maven()
 {
-    mvn
+    mvn install
     clean
 }
 
